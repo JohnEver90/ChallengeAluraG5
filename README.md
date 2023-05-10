@@ -1,6 +1,6 @@
 # Encriptador de texto.
 ***
-Proyecto para la formaciom del programa OracleONE+Alura.  
+Proyecto para la formación del programa OracleONE+Alura.  
 Challenge codificador - Grupo 5.  
 Una aplicacion web que realiza un encriptado sencillo.  
 
