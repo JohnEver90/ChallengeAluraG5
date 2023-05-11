@@ -21,19 +21,12 @@ label{
 textarea{
     resize: none;
     box-shadow: 5px 5px 10px black;
-}
-
-.inputtext {
-    border-radius: 10px;
-}
-
-.encriptext {
     border-radius: 10px;
 }
 
 button{
     border-radius: 10px;
-    margin-left: 70px;
+    margin-left: 32px;
     font-size: 20x;
     padding: 5px 5px 5px 5px;
     box-shadow: 2px 2px 5px black;
@@ -41,16 +34,18 @@ button{
 
 .btn-copiar{
     border-radius: 10px;
-    margin-left: 100px;
+    margin-left: 45px;
     font-size: 20x;
     box-shadow: 2px 2px 5px black;
 }
 
 img{
-    height: 100px;
-    width: 100px;
+    height: 68px;
+    width: 68px;
+    margin-bottom: 8px;
     padding: 0 5px 0 5px;
     filter: drop-shadow(5px 5px 10px black)
+    
 }
 
 p{
