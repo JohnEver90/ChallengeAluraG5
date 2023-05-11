@@ -8,11 +8,11 @@ function encriptar(mensajeIngresado){
     //Matriz de claves. 5 elementos (items) y cada elemento tiene 2 valores.
     let matrizKeys = [["e","enter"],["i","imes"],["a","ai"],["o","ober"],["u","ufat"]];
     //Obtener el mensaje como parámetro y convertirlo a minúscula.
-    mensajeRecibido = mensajeIngresado.toLowerCase();
+    mensajeIngresado = mensajeIngresado.toLowerCase();
     //Hacer un recorrido a la matriz con un ciclo "for".    
     for(let i = 0; i<matrizKeys.length;i++){
         //Validar y comparar los caracteres del mensaje ingresado con los primeros datos de cada elemento de la matriz. 
-        if(mensajeRecibido.includes(matrizKeys[i][0])){
+        if(mensajeIngresado.includes(matrizKeys[i][0])){
             //Reemplazando los valores por los segundos valores de cada elemento de la matriz.
             mensajeIngresado = mensajeIngresado.replaceAll(matrizKeys[i][0], matrizKeys[i][1]);
         }
